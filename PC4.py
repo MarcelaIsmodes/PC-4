@@ -82,8 +82,12 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Mi nombre es Marcela Ismodes, tengo 21 años y estoy cursando el 5to ciclo en la carrera de Publicidad. 
-    En mi tiempo libre me gusta leer y escuchar música. También salir con mis amigos y familia a cafeterías.
+    ¡Hola! Mi nombre es Marcela Ismodes y tengo 21 años.
+    Actualmente estoy cursando el quinto ciclo de la carrera de Publicidad. Antes estudiaba Administración y Marketing en la UPC, pero me di cuenta de que las matemáticas no eran lo mío y que prefería enfocarme en el lado más creativo del marketing. Por eso decidí cambiarme a Publicidad, donde siento que puedo desarrollar mucho mejor mis ideas y mi lado más imaginativo y expresivo.
+    En mi tiempo libre me gusta leer, escuchar música y salir con mis amigos y mi familia. Me encanta visitar cafeterías, ir al teatro y conocer ferias o lugares nuevos. También me gustan mucho los gatos: tengo dos, uno lo adopté hace dos años y a la otra hace menos de un año. Ambos son muy cariñosos y me acompañan siempre que estoy en casa.
+    Otra cosa que disfruto mucho es tomar fotos; es una actividad que me relaja y me permite ver el mundo desde otra perspectiva. Me encantaría llevar un curso de fotografía pronto para aprender más y seguir mejorando.
+    Me considero una persona curiosa, creativa y con muchas ganas de seguir aprendiendo y descubriendo cosas nuevas todo el tiempo.
+
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
