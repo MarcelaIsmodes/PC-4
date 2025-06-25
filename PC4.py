@@ -87,7 +87,6 @@ if pagina_seleccionada == 'Inicio':
     En mi tiempo libre me gusta leer, escuchar música y salir con mis amigos y mi familia. Me encanta visitar cafeterías, ir al teatro y conocer ferias o lugares nuevos. También me gustan mucho los gatos: tengo dos, uno lo adopté hace dos años y a la otra hace menos de un año. Ambos son muy cariñosos y me acompañan siempre que estoy en casa.
     Otra cosa que disfruto mucho es tomar fotos; es una actividad que me relaja y me permite ver el mundo desde otra perspectiva. Me encantaría llevar un curso de fotografía pronto para aprender más y seguir mejorando.
     Me considero una persona curiosa, creativa y con muchas ganas de seguir aprendiendo y descubriendo cosas nuevas todo el tiempo.
-
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
