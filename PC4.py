@@ -92,7 +92,7 @@ if pagina_seleccionada == 'Inicio':
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
     
     # Mostramos el texto
-    st.video("https://drive.google.com/drive/folders/1crG5FEq-moGG1r8BbBzdnxg9vj-FZ7j-")
+    col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto}</div>", unsafe_allow_html=True)
 
     # <div style='text-align: justify; font-size: 15px;'>{texto}</div>: Esta es una cadena de código HTML. 
     # La etiqueta <div> se utiliza para agrupar contenido en HTML. 
