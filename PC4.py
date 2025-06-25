@@ -148,7 +148,8 @@ elif  pagina_seleccionada == 'Experiencia':
     # Por ejemplo, puedes agregar un emoji de video 🎥 
 
     # Agregamos un video realizado en las practicas anteriores
-    st.video("https://drive.google.com/drive/folders/1crG5FEq-moGG1r8BbBzdnxg9vj-FZ7j-")
+    st.markdown(f"<div style='text-align: center;'><a href='https://drive.google.com/drive/folders/1crG5FEq-moGG1r8BbBzdnxg9vj-FZ7j-' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
+
 
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
