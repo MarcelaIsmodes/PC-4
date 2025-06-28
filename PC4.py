@@ -44,7 +44,7 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona una página', paginas)
 if pagina_seleccionada == 'Inicio':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>Aprendiendo con Python</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Crónicas de una publicista perdida en el mundo de Python 👩🏻‍💻</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
