@@ -195,15 +195,17 @@ else:
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico de número de lenguas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico nos muestra las cantidades de lenguas que tiene cada familia lingüística.</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico, incluido en mi PC3, presenta las diferentes familias lingüísticas y la cantidad de lenguas que pertenecen a cada una de ellas.</div>", unsafe_allow_html=True)
         st.image("grafico1.png", caption='Gráfico de número de lenguas', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de hashtags más usados':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico nos muestra los hashtags más usados y la cantidad de publicaciones que lo usaron.</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico forma parte de mi PC3 y muestra los hashtags más utilizados sobre libros en TikTok Perú, junto con la cantidad de publicaciones que los emplearon.</div>", unsafe_allow_html=True)
         st.image("grafico2.png", caption='Gráfico de hashtags más usados', width=500)
         pass
     elif grafico_seleccionado == 'Mapa':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa fue creado para indicarnos las locaciones de grabación de distintas películas. Al presionar en algún marcador, este nos dará información sobre el nombre de la película, el director y el año de estreno.</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa, que forma parte de mi PC3, fue creado para mostrar las locaciones de grabación de mis películas favoritas. Al hacer clic en un marcador, se despliega información sobre el nombre de la película, su director y el año de estreno.
+
+</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa.html", "r", encoding="utf-8") as f:
