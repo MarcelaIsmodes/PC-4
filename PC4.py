@@ -177,7 +177,7 @@ elif  pagina_seleccionada == 'Experiencia':
 else:
 
     # Agregamos un título para la página de gráficos
-    st.markdown("<h1 style='text-align: center;'>Gráficos</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Gráficos 📊 y mapa 📍</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
     graficos = ['Gráfico de número de lenguas', 'Gráfico de hashtags más usados', 'Mapa']
