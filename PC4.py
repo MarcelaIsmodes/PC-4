@@ -205,7 +205,6 @@ else:
     elif grafico_seleccionado == 'Mapa':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa, que forma parte de mi PC3, fue creado para mostrar las locaciones de grabación de mis películas favoritas. Al hacer clic en un marcador, se despliega información sobre el nombre de la película, su director y el año de estreno.</div>", unsafe_allow_html=True)
 
-</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa.html", "r", encoding="utf-8") as f:
