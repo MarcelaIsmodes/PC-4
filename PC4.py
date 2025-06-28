@@ -180,7 +180,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Gráficos 📊 y mapa 📍</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico de número de lenguas', 'Gráfico de hashtags más usados', 'Mapa']
+    graficos = ['Gráfico de número de lenguas', 'Gráfico de hashtags más usados', 'Mapa de películas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -202,7 +202,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico forma parte de mi PC3 y muestra los hashtags más utilizados sobre libros en TikTok Perú, junto con la cantidad de publicaciones que los emplearon.</div>", unsafe_allow_html=True)
         st.image("grafico2.png", caption='Gráfico de hashtags más usados', width=500)
         pass
-    elif grafico_seleccionado == 'Mapa':
+    elif grafico_seleccionado == 'Mapa de películas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa, que forma parte de mi PC3, fue creado para mostrar las locaciones de grabación de mis películas favoritas. Al hacer clic en un marcador, se despliega información sobre el nombre de la película, su director y el año de estreno.</div>", unsafe_allow_html=True)
 
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
